@@ -1,5 +1,108 @@
 {
-  "node": {},
+  "node": {
+    "00b7859b6f5e961db3a4279aadaeab5f61c5bd669c": {
+      "workers": {
+        "app/(auth)/sign-in/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200b7859b6f5e961db3a4279aadaeab5f61c5bd669c%22%2C%22getLoggedInUser%22%5D%2C%5B%227f5c8f620cb9448b395e1a41a2b768068b4fcdab7c%22%2C%22getUserInfo%22%5D%2C%5B%227f7b0fae21901c3da2dde18b148a33ec91239bae1c%22%2C%22signUp%22%5D%2C%5B%227f87ad0a2cf90941f270e3f51bff53df1e7b507966%22%2C%22signIn%22%5D%2C%5B%227ffc821482c5f3dbe4409f533515e8900fdaddb6c3%22%2C%22logoutAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200b7859b6f5e961db3a4279aadaeab5f61c5bd669c%22%2C%22getLoggedInUser%22%5D%2C%5B%227f5c8f620cb9448b395e1a41a2b768068b4fcdab7c%22%2C%22getUserInfo%22%5D%2C%5B%227f7b0fae21901c3da2dde18b148a33ec91239bae1c%22%2C%22signUp%22%5D%2C%5B%227f87ad0a2cf90941f270e3f51bff53df1e7b507966%22%2C%22signIn%22%5D%2C%5B%227ffc821482c5f3dbe4409f533515e8900fdaddb6c3%22%2C%22logoutAccount%22%5D%5D%5D%2C%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200181084824acfb8e1053a0f78d1ab3b287fb34ba5%22%2C%22createSessionClient%22%5D%2C%5B%2200c263d8683b341aa66d7cef0f565156cb8e2bbaa5%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/page": "action-browser",
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7f5c8f620cb9448b395e1a41a2b768068b4fcdab7c": {
+      "workers": {
+        "app/(auth)/sign-in/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200b7859b6f5e961db3a4279aadaeab5f61c5bd669c%22%2C%22getLoggedInUser%22%5D%2C%5B%227f5c8f620cb9448b395e1a41a2b768068b4fcdab7c%22%2C%22getUserInfo%22%5D%2C%5B%227f7b0fae21901c3da2dde18b148a33ec91239bae1c%22%2C%22signUp%22%5D%2C%5B%227f87ad0a2cf90941f270e3f51bff53df1e7b507966%22%2C%22signIn%22%5D%2C%5B%227ffc821482c5f3dbe4409f533515e8900fdaddb6c3%22%2C%22logoutAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200b7859b6f5e961db3a4279aadaeab5f61c5bd669c%22%2C%22getLoggedInUser%22%5D%2C%5B%227f5c8f620cb9448b395e1a41a2b768068b4fcdab7c%22%2C%22getUserInfo%22%5D%2C%5B%227f7b0fae21901c3da2dde18b148a33ec91239bae1c%22%2C%22signUp%22%5D%2C%5B%227f87ad0a2cf90941f270e3f51bff53df1e7b507966%22%2C%22signIn%22%5D%2C%5B%227ffc821482c5f3dbe4409f533515e8900fdaddb6c3%22%2C%22logoutAccount%22%5D%5D%5D%2C%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200181084824acfb8e1053a0f78d1ab3b287fb34ba5%22%2C%22createSessionClient%22%5D%2C%5B%2200c263d8683b341aa66d7cef0f565156cb8e2bbaa5%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/page": "action-browser",
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7f7b0fae21901c3da2dde18b148a33ec91239bae1c": {
+      "workers": {
+        "app/(auth)/sign-in/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200b7859b6f5e961db3a4279aadaeab5f61c5bd669c%22%2C%22getLoggedInUser%22%5D%2C%5B%227f5c8f620cb9448b395e1a41a2b768068b4fcdab7c%22%2C%22getUserInfo%22%5D%2C%5B%227f7b0fae21901c3da2dde18b148a33ec91239bae1c%22%2C%22signUp%22%5D%2C%5B%227f87ad0a2cf90941f270e3f51bff53df1e7b507966%22%2C%22signIn%22%5D%2C%5B%227ffc821482c5f3dbe4409f533515e8900fdaddb6c3%22%2C%22logoutAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200b7859b6f5e961db3a4279aadaeab5f61c5bd669c%22%2C%22getLoggedInUser%22%5D%2C%5B%227f5c8f620cb9448b395e1a41a2b768068b4fcdab7c%22%2C%22getUserInfo%22%5D%2C%5B%227f7b0fae21901c3da2dde18b148a33ec91239bae1c%22%2C%22signUp%22%5D%2C%5B%227f87ad0a2cf90941f270e3f51bff53df1e7b507966%22%2C%22signIn%22%5D%2C%5B%227ffc821482c5f3dbe4409f533515e8900fdaddb6c3%22%2C%22logoutAccount%22%5D%5D%5D%2C%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200181084824acfb8e1053a0f78d1ab3b287fb34ba5%22%2C%22createSessionClient%22%5D%2C%5B%2200c263d8683b341aa66d7cef0f565156cb8e2bbaa5%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/page": "action-browser",
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7f87ad0a2cf90941f270e3f51bff53df1e7b507966": {
+      "workers": {
+        "app/(auth)/sign-in/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200b7859b6f5e961db3a4279aadaeab5f61c5bd669c%22%2C%22getLoggedInUser%22%5D%2C%5B%227f5c8f620cb9448b395e1a41a2b768068b4fcdab7c%22%2C%22getUserInfo%22%5D%2C%5B%227f7b0fae21901c3da2dde18b148a33ec91239bae1c%22%2C%22signUp%22%5D%2C%5B%227f87ad0a2cf90941f270e3f51bff53df1e7b507966%22%2C%22signIn%22%5D%2C%5B%227ffc821482c5f3dbe4409f533515e8900fdaddb6c3%22%2C%22logoutAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200b7859b6f5e961db3a4279aadaeab5f61c5bd669c%22%2C%22getLoggedInUser%22%5D%2C%5B%227f5c8f620cb9448b395e1a41a2b768068b4fcdab7c%22%2C%22getUserInfo%22%5D%2C%5B%227f7b0fae21901c3da2dde18b148a33ec91239bae1c%22%2C%22signUp%22%5D%2C%5B%227f87ad0a2cf90941f270e3f51bff53df1e7b507966%22%2C%22signIn%22%5D%2C%5B%227ffc821482c5f3dbe4409f533515e8900fdaddb6c3%22%2C%22logoutAccount%22%5D%5D%5D%2C%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200181084824acfb8e1053a0f78d1ab3b287fb34ba5%22%2C%22createSessionClient%22%5D%2C%5B%2200c263d8683b341aa66d7cef0f565156cb8e2bbaa5%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/page": "action-browser",
+        "app/(root)/page": "rsc"
+      }
+    },
+    "7ffc821482c5f3dbe4409f533515e8900fdaddb6c3": {
+      "workers": {
+        "app/(auth)/sign-in/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200b7859b6f5e961db3a4279aadaeab5f61c5bd669c%22%2C%22getLoggedInUser%22%5D%2C%5B%227f5c8f620cb9448b395e1a41a2b768068b4fcdab7c%22%2C%22getUserInfo%22%5D%2C%5B%227f7b0fae21901c3da2dde18b148a33ec91239bae1c%22%2C%22signUp%22%5D%2C%5B%227f87ad0a2cf90941f270e3f51bff53df1e7b507966%22%2C%22signIn%22%5D%2C%5B%227ffc821482c5f3dbe4409f533515e8900fdaddb6c3%22%2C%22logoutAccount%22%5D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200b7859b6f5e961db3a4279aadaeab5f61c5bd669c%22%2C%22getLoggedInUser%22%5D%2C%5B%227f5c8f620cb9448b395e1a41a2b768068b4fcdab7c%22%2C%22getUserInfo%22%5D%2C%5B%227f7b0fae21901c3da2dde18b148a33ec91239bae1c%22%2C%22signUp%22%5D%2C%5B%227f87ad0a2cf90941f270e3f51bff53df1e7b507966%22%2C%22signIn%22%5D%2C%5B%227ffc821482c5f3dbe4409f533515e8900fdaddb6c3%22%2C%22logoutAccount%22%5D%5D%5D%2C%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200181084824acfb8e1053a0f78d1ab3b287fb34ba5%22%2C%22createSessionClient%22%5D%2C%5B%2200c263d8683b341aa66d7cef0f565156cb8e2bbaa5%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(auth)/sign-in/page": "action-browser",
+        "app/(root)/page": "rsc"
+      }
+    },
+    "00181084824acfb8e1053a0f78d1ab3b287fb34ba5": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200b7859b6f5e961db3a4279aadaeab5f61c5bd669c%22%2C%22getLoggedInUser%22%5D%2C%5B%227f5c8f620cb9448b395e1a41a2b768068b4fcdab7c%22%2C%22getUserInfo%22%5D%2C%5B%227f7b0fae21901c3da2dde18b148a33ec91239bae1c%22%2C%22signUp%22%5D%2C%5B%227f87ad0a2cf90941f270e3f51bff53df1e7b507966%22%2C%22signIn%22%5D%2C%5B%227ffc821482c5f3dbe4409f533515e8900fdaddb6c3%22%2C%22logoutAccount%22%5D%5D%5D%2C%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200181084824acfb8e1053a0f78d1ab3b287fb34ba5%22%2C%22createSessionClient%22%5D%2C%5B%2200c263d8683b341aa66d7cef0f565156cb8e2bbaa5%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    },
+    "00c263d8683b341aa66d7cef0f565156cb8e2bbaa5": {
+      "workers": {
+        "app/(root)/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Factions%2Fuser.actions.ts%22%2C%5B%5B%2200b7859b6f5e961db3a4279aadaeab5f61c5bd669c%22%2C%22getLoggedInUser%22%5D%2C%5B%227f5c8f620cb9448b395e1a41a2b768068b4fcdab7c%22%2C%22getUserInfo%22%5D%2C%5B%227f7b0fae21901c3da2dde18b148a33ec91239bae1c%22%2C%22signUp%22%5D%2C%5B%227f87ad0a2cf90941f270e3f51bff53df1e7b507966%22%2C%22signIn%22%5D%2C%5B%227ffc821482c5f3dbe4409f533515e8900fdaddb6c3%22%2C%22logoutAccount%22%5D%5D%5D%2C%5B%22%2FUsers%2FPapaandohduncan%2FDesktop%2Fbanking-app-nextjs%2Flib%2Fappwrite.ts%22%2C%5B%5B%2200181084824acfb8e1053a0f78d1ab3b287fb34ba5%22%2C%22createSessionClient%22%5D%2C%5B%2200c263d8683b341aa66d7cef0f565156cb8e2bbaa5%22%2C%22createAdminClient%22%5D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/(root)/page": "rsc"
+      }
+    }
+  },
   "edge": {},
   "encryptionKey": "QB4lMi+YBdWzGbiTYhzRIvLd7tkmRGd8Ij3MrC/d8lY="
 }
