@@ -1,11 +1,22 @@
 import HeaderBox from '@/components/HeaderBox'
 import RightSidebar from '@/components/RightSidebar'
 import TotalBalanceBox from '@/components/TotalBalanceBox'
+import { getAccount, getAccounts } from '@/lib/actions/bank.actions'
 import { getLoggedInUser } from '@/lib/actions/user.actions'
 import React from 'react'
 
 const Home = async () => {
   const loggedIn = await getLoggedInUser()
+  // const accounts = await getAccounts({ userId: loggedIn.$id })
+
+  // if (!loggedIn) return
+
+  // const accountsData = accounts?.data
+
+  // const appwriteItemId = (id as string) || accountsData[0]?.appwriteItemId
+
+  // const account = await getAccount({ appwriteItemId })
+
   return (
     <section className="home">
       <div className="home-content">
@@ -20,7 +31,7 @@ const Home = async () => {
           <TotalBalanceBox
             accounts={[]}
             totalBanks={1}
-            totalCurrentBalance={1250.35}
+            totalCurrentBalance={1250}
           />
         </header>
         RECENT TRANSACTIONS

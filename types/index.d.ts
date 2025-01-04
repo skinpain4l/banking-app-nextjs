@@ -8,14 +8,14 @@ declare type SearchParamProps = {
 // ========================================
 
 declare type SignUpParams = {
-  firstName?: string
-  lastName?: string
-  address1?: string
-  city?: string
-  state?: string
-  postalCode?: string
-  dateOfBirth?: string
-  ssn?: string
+  firstName: string
+  lastName: string
+  address1: string
+  city: string
+  state: string
+  postalCode: string
+  dateOfBirth: string
+  ssn: string
   email: string
   password: string
 }
@@ -23,6 +23,17 @@ declare type SignUpParams = {
 declare type LoginUser = {
   email: string
   password: string
+}
+
+declare interface tokenParams {
+  user: {
+    client_user_id: string
+  }
+  client_name: string
+  products: string[]
+  language: string
+  country_codes: string[]
+  redirect_uri?: string
 }
 
 declare type User = {

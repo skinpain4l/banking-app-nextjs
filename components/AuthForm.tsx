@@ -1,38 +1,47 @@
 'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
+
 import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
-import { authFormSchema } from '@/lib/utils'
+import { Button } from '@/components/ui/button'
+import {
+  Form,
+  FormControl,
+  FormDescription,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from '@/components/ui/form'
+import { Input } from '@/components/ui/input'
 import CustomInput from './CustomInput'
-import { Button } from './ui/button'
+import { authFormSchema } from '@/lib/utils'
 import { Loader2 } from 'lucide-react'
-import { Form } from './ui/form'
 import { useRouter } from 'next/navigation'
 import { getLoggedInUser, signIn, signUp } from '@/lib/actions/user.actions'
+import PlaidLink from './PlaidLink'
 
 const AuthForm = ({ type }: { type: string }) => {
   const router = useRouter()
-  const [isLoading, setIsLoading] = useState(false)
   const [user, setUser] = useState(null)
+  const [isLoading, setIsLoading] = useState(false)
+
   const formSchema = authFormSchema(type)
+
+  // 1. Define your form.
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
       email: '',
       password: '',
-      firstName: '',
-      lastName: '',
-      address1: '',
-      city: '',
-      state: '',
-      postalCode: '',
-      dateOfBirth: '',
-      ssn: '',
     },
   })
+
+  // 2. Define a submit handler.
   const onSubmit = async (data: z.infer<typeof formSchema>) => {
     setIsLoading(true)
 
@@ -60,8 +69,8 @@ const AuthForm = ({ type }: { type: string }) => {
 
       if (type === 'sign-in') {
         const response = await signIn({
-          email: data.email!,
-          password: data.password!,
+          email: data.email,
+          password: data.password,
         })
 
         if (response) router.push('/')
@@ -83,10 +92,11 @@ const AuthForm = ({ type }: { type: string }) => {
             height={34}
             alt="Horizon logo"
           />
-          <p className="text-26 font-ibm-plex-serif font-bold text-black-1">
+          <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">
             Horizon
-          </p>
+          </h1>
         </Link>
+
         <div className="flex flex-col gap-1 md:gap-3">
           <h1 className="text-24 lg:text-36 font-semibold text-gray-900">
             {user ? 'Link Account' : type === 'sign-in' ? 'Sign In' : 'Sign Up'}
@@ -99,7 +109,9 @@ const AuthForm = ({ type }: { type: string }) => {
         </div>
       </header>
       {user ? (
-        <div className="flex flex-col gap-4">{/* PlainLink */}</div>
+        <div className="flex flex-col gap-4">
+          <PlaidLink user={user} variant="primary" />
+        </div>
       ) : (
         <>
           <Form {...form}>
@@ -117,7 +129,7 @@ const AuthForm = ({ type }: { type: string }) => {
                       control={form.control}
                       name="lastName"
                       label="Last Name"
-                      placeholder="Enter your last name"
+                      placeholder="Enter your first name"
                     />
                   </div>
                   <CustomInput
@@ -162,6 +174,7 @@ const AuthForm = ({ type }: { type: string }) => {
                   </div>
                 </>
               )}
+
               <CustomInput
                 control={form.control}
                 name="email"
@@ -175,6 +188,7 @@ const AuthForm = ({ type }: { type: string }) => {
                 label="Password"
                 placeholder="Enter your password"
               />
+
               <div className="flex flex-col gap-4">
                 <Button type="submit" disabled={isLoading} className="form-btn">
                   {isLoading ? (
@@ -191,6 +205,7 @@ const AuthForm = ({ type }: { type: string }) => {
               </div>
             </form>
           </Form>
+
           <footer className="flex justify-center gap-1">
             <p className="text-14 font-normal text-gray-600">
               {type === 'sign-in'

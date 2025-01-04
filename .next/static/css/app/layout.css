@@ -856,6 +856,9 @@ video {
   font-size: 3rem;
   line-height: 1;
 }
+.text-\[16px\] {
+  font-size: 16px;
+}
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1424,6 +1427,52 @@ video {
   padding: 1rem;
 }
 /* PlaidLink */
+.plaidlink-primary {
+  border-radius: 0.5rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(1 121 254 / var(--tw-border-opacity, 1));
+  background-image: linear-gradient(90deg, #0179FE 0%, #4893FF 100%);
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  --tw-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  --tw-shadow-colored: 0px 1px 2px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  font-size: 16px;
+  line-height: 24px;
+}
+.plaidlink-ghost {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  border-radius: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+.plaidlink-ghost:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+@media (min-width: 1024px) {
+
+  .plaidlink-ghost {
+    justify-content: flex-start;
+  }
+}
+.plaidlink-default {
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  justify-content: flex-start !important;
+  gap: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: transparent !important;
+}
 /* Auth */
 .auth-asset {
   position: sticky;
@@ -1977,6 +2026,13 @@ video {
   .lg\:text-36 {
     font-size: 36px;
     line-height: 44px;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .xl\:block {
+    display: block;
   }
 }
 
